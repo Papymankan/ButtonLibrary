@@ -3,7 +3,7 @@ import { ButtonProps } from "./Button.types.ts";
 import "../../index.css";
 import clsx from "clsx";
 
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   variant = "primary",
   size = "md",
   radius = "md",
@@ -42,3 +42,5 @@ export const Button: React.FC<ButtonProps> = ({
     </button>
   );
 };
+
+export default Button
