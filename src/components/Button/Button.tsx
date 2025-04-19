@@ -15,7 +15,7 @@ const Button: React.FC<ButtonProps> = ({
     secondary: "bg-gray-500 text-white hover:bg-gray-600",
     warning: "bg-yellow-500 text-black hover:bg-yellow-600",
     danger: "bg-red-500 text-white hover:bg-red-600",
-    success: "bg-red-500 text-white hover:bg-green-600",
+    success: "bg-green-500 text-white hover:bg-green-600",
   };
 
   const sizeClasses = {
