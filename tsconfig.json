@@ -2,10 +2,10 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node", // should be "node" to allow standard resolution
+    "moduleResolution": "node",
     "jsx": "react-jsx",
-    "declaration": true, // enable declaration file generation
-    "declarationDir": "dist", // output declaration files in dist
+    "declaration": true,
+    "declarationDir": "dist",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "importHelpers": true,
