@@ -31,6 +31,7 @@ export default [
       typescript({
         tsconfig: "./tsconfig.json",
         useTsconfigDeclarationDir: true,
+        exclude: ["**/*.stories.tsx", "**/*.test.tsx"]
       }),
       terser(),
     ],
