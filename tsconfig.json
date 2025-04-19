@@ -1,7 +1,17 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",  // should be "node" to allow standard resolution
+    "jsx": "react",
+    "declaration": true,        // enable declaration file generation
+    "declarationDir": "dist",   // output declaration files in dist
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "importHelpers": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "strict": true
+  },
+  "include": ["src"]
 }

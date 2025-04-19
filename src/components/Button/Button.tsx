@@ -1,6 +1,5 @@
 import React from "react";
-import { ButtonProps } from "./Button.types.ts";
-import "../../index.css";
+import { ButtonProps } from "./Button.types";
 import clsx from "clsx";
 
 const Button: React.FC<ButtonProps> = ({
@@ -11,7 +10,6 @@ const Button: React.FC<ButtonProps> = ({
   children,
   ...attributes
 }) => {
-
   const variantClasses = {
     primary: "bg-blue-500 text-white hover:bg-blue-600",
     secondary: "bg-gray-500 text-white hover:bg-gray-600",
@@ -43,4 +41,4 @@ const Button: React.FC<ButtonProps> = ({
   );
 };
 
-export default Button
+export default Button;
